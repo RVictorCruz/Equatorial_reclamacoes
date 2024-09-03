@@ -79,7 +79,7 @@ canvas {
 /* Ajustes para visualização mobile */
 @media (max-width: 768px) {
   body {
-    background-color: #6291f5;
+    background-color: #c6d7fc;
   }
   .sidebar {
     width: 100%;
