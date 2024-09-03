@@ -78,6 +78,9 @@ canvas {
 
 /* Ajustes para visualização mobile */
 @media (max-width: 768px) {
+  body {
+    background-color: #6291f5;
+  }
   .sidebar {
     width: 100%;
     height: auto;
