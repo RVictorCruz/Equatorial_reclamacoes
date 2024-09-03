@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relatório de Reclamações - Maranhão</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#reclamacoes">Reclamações Recebidas vs Procedentes</a></li>
+        <li><a href="#prazoMedio">Prazo Médio de Solução</a></li>
+        <li><a href="#mapa">Mapa das Reclamações</a></li>
+        <!-- Adicione links para mais gráficos aqui -->
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>Relatório de Reclamações - Estado do Maranhão</h1>
+      <section id="reclamacoes">
+        <h2>Reclamações Recebidas vs Procedentes</h2>
+        <canvas id="reclamacoesChart"></canvas>
+      </section>
+
+      <section id="prazoMedio">
+        <h2>Prazo Médio de Solução</h2>
+        <canvas id="prazoMedioChart"></canvas>
+      </section>
+
+      <section id="mapa">
+        <h2>Mapa das Reclamações</h2>
+        <div id="map" style="height: 400px"></div>
+      </section>
+
+      <!-- Adicione mais seções de gráficos aqui -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
